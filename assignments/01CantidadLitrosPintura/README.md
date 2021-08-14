@@ -1,5 +1,5 @@
 ![Tec de Monterrey](../../images/logotecmty.png)
-# Distancia entre dos puntos
+# Cantidad de Litros de Pintura
 
 Modifica el programa que se encuentra en la carpeta `src` que se llama `exercise.py` y que contiene el siguiente código:
 
@@ -19,37 +19,31 @@ La línea `#escribe tu código abajo de esta línea` es un comentario, el progra
 
 ## Definición del problema
 
-Desarrolla un programa en Python que calcule la distancia entre dos puntos del plano cartesiano.
+Escribe un programa para calcular la cantidad de litros de pintura necesarios para pintar una superficie.
+
+El programa debe leer el área de la superficie a pintar en metros cuadrados y la cantidad de metros cuadrados que se pueden cubrir con un litro de pintura. Y mostrar la cantidad de litros de pintura que se deben comprar para cubrir esa superficie.
+
+Considera que sólo se pueden comprar litros completos de pintura.
 
 **Entradas**
 
-El programa solicita el punto inicial (x1, y1) y el final (x2, y2). Todos enteros y en ese orden.
+El área a pintar (número flotante)
+
+La cantidad de metros cuadrados que se pueden cubrir con un litro de pintura (número flotante)
 
 **Salida** 
 
-El valor de la distancia (numero flotante) que existe entre los dos puntos. Despliega el resultado con la palabra distancia (todo en minúsculas) y un = y el número formateado a 2 decimales (sin espacios entre caracteres y números). Por ejemplo: distancia= 9.90
+La cantidad de litros a pintar (número entero)
 
-## Ejemplos de ejecución
+## Ejemplo de ejecución
 
-Ejemplo 1 
-
-```plaintext
-x1= 2
-y1= -4
-x2= 5
-y2= 3
-distancia= 7.62
-```
-
-Ejemplo 2 
 
 ```plaintext
-x1= 5
-y1= 10
-x2= -3
-y2= -4
-distancia= 16.12
+Area a pintar en metros: 857.5
+Rendimiento (m2/l): 10
+Litros a comprar: 86
 ```
+
 **Nota:** No te preocupes por esta parte del código `if __name__ == '__main__':` por el momento. No la vamos a necesitar para este programa, pero es una buena práctica incluirla y quedará más claro para que sirve en los siguientes ejercicios.
 
 Una vez que termines tu actividad y la hayas probado con `pytest`, subela a tu repositorio en GitHub, con el proceso de commit + push.
